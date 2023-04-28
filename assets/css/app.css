@@ -20,7 +20,7 @@ html {
 
  
 
-/*Login*/
+/*Hero*/
 .img-bank .bg {
      background-image: url(../img/img_1.avif);
      background-repeat: no-repeat;
@@ -28,7 +28,7 @@ html {
      left: 0;
      top: 0;
      width: 100%;
-     height: 100%;
+     height: 104%;
      z-index: 1;
 }
 
@@ -40,7 +40,7 @@ html {
     opacity: 0.32;
 }
 
-/*Formulario*/
+/*Login*/
 
 .container {
     display: flex;
@@ -53,6 +53,7 @@ html {
     width: 102.6rem;
     background-color: #0093FF ;
     height: 58rem;
+    position: fixed;
 }
 
 
@@ -62,35 +63,52 @@ html {
     align-items: center;
 }
 
-.title p { 
-    margin: 0;
-    margin-left: 6rem;
+
+.pictures-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.pictures-login img {
+    height: 20rem;
+    border-radius: 5rem;
 }
 
 .label-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 7rem;
+    margin-top: 4rem;
 }
 
-.input-text { 
-    width: 23rem;
-    height: 3rem;
-    border-radius: 50rem;
-}
-.password{
-    width: 23rem;
-    border-radius: 50rem ;
-    height: 3rem;
-}
-
-/*img*/
-
-.button-main { 
-    width: 20rem;
+.user {
+    width: 32rem;
     height: 4rem;
-    border-radius: 2rem 2rem 3rem 2rem;
+    border-radius: 4rem;
+}
+
+.password {
+    width: 32rem;
+    height: 4rem;
+    border-radius: 4rem;
+}
+
+.button-main {
+    margin-top: 4rem;
+    padding: 2rem;
+    width: 32rem ;
+    background-color: #037bc0;
+    border-radius: 6rem;
+}
+
+span {
+    color: #09B81E;
+}
+
+/*Pag Options*/
+
+.c.container-img_1 .container-img_1 {
+    width: 10%;
 }
